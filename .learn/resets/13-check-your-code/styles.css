@@ -1,0 +1,50 @@
+body {
+	background: black;
+	.smythe-regular {
+		font-family: "Smythe", system-ui;
+		font-weight: 400;
+		font-style: normal;
+	}
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding: 10px;
+}
+.potscard-header h1 {
+	width: 100%;
+	margin: 0;
+	padding-top: 10px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+.input {
+	border: none;
+	border-bottom: 1px grey;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgb(182, 178, 182);
+	padding: 10px;
+	border: none;
+}
